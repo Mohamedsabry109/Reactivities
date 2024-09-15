@@ -1,0 +1,83 @@
+# Ignore Visual Studio temporary files, build results, and
+# while building and running projects.
+
+# User-specific files
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Auto-generated files
+*.sln.ide
+
+# Build results
+bin/
+obj/
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# dotnet specific
+.env
+.vs/
+
+# Debug and Release folders
+Debug/
+Release/
+
+# NuGet packages
+*.nupkg
+*.snupkg
+
+# Rider files
+.idea/
+
+# React/Node.js specific
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+/build/
+/coverage/
+
+# Sensitive files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Optional npm cache directory
+.npm/
+
+# Jest test coverage
+/coverage/
+
+# Next.js
+.next/
+
+# Sentry CLI
+.sentryclirc
+
+# Windows-specific files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# MacOS-specific files
+.DS_Store
+
+# Log files
+*.log
+
+# SQLite database
+*.sqlite
+*.sqlite3
+
+# If you're using TypeScript
+*.tsbuildinfo
